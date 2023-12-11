@@ -1,0 +1,538 @@
+@import "../bootstrap-5.3.2/scss/bootstrap.scss";
+ 
+$font-color: #C00F1A;
+$tamano-fuente: 25px;
+$color-rojo: #C00F1A;
+$color-rojo2: #EC646D;
+$color-gris: #706E6E;
+
+//Estilos Generales
+
+
+//Estilos del Home
+.m-pago {
+    display: flex;
+    justify-content: space-around;
+}
+
+.webpay {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    position: relative;
+    text-align: center;
+}
+ 
+.centrado{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cent {
+    display: flex;
+    justify-content: center;
+}
+
+.button-por {
+    border-radius: 12px;
+    border: none;
+    width: 150px;
+    height: 70px;
+    background-color: $color-rojo;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+
+
+body{
+    font-family: "segoe ui", sans-serif;
+    font-size: 20px;
+    color: #707070;
+}
+
+.cuentas {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+//Estilos del Perfil-page
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.prof {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: auto;
+    width: 150px;
+    height: 50px;
+}
+
+.button-g {
+    background-color: $color-gris;
+    border-radius: 12px;   
+}
+
+.button-rp {
+    background-color: $color-rojo;
+    border: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: center;
+}
+
+a {
+    color: $color-rojo;
+}
+
+.Registrarme {
+    display: flex;
+    justify-content: center;
+    background-color: $color-rojo2;
+    color: white;
+}
+
+.reg2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-emp {
+    background-color: $color-rojo;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: auto;
+    height: auto;
+}
+
+.p-line {
+    text-decoration: none;
+    color: black;
+}
+
+.border {
+    padding: 10px 40px 10px 40px;
+    border-radius: 8px;
+}
+
+//Estilos de Recarga-page
+
+.cuentas {
+    display: flex;
+    justify-content: space-around;
+}
+
+//Estilos de Contact-page
+.c-section {
+    display: flex;
+    justify-content: center;
+}
+
+.porte {
+    height: 70px;
+}
+
+.rc-button {
+    background-color: $color-rojo;
+}
+
+
+.navbar-collapse{
+        display: flex;
+        justify-content: center;
+        ul{
+            gap: 45px;
+        }
+        }
+   
+   
+.navbar-collapse .nav-item a:hover{
+        color: #C00F1A;
+        border-bottom: 2px solid;
+    }
+    
+    .redes-sociales ul{
+        list-style: none;
+
+        
+}
+
+.dropdown-item:hover{
+    border-bottom: none  !important;
+}
+
+.dropdown-item:focus {
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+
+/*Categorias*/
+.rectangulo-pagar{
+    display: flex;
+    align-items: center;
+    width: 332px;
+    padding-left: 35px;
+    font-size: 30px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+.seleccionar-cuenta{
+    padding-left: 170px;
+}
+.categorias-container{
+    padding-top: 27px;
+
+.caja-categoria{
+    display: flex;
+    justify-content: center;
+    height: 174px;
+    width: 174px;
+    margin-left: 75px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    a{
+        text-decoration: none;
+    }
+    p{
+        font-size: 18px;
+    }
+    .caja{
+        width: 174px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+            img{
+                padding-bottom: 18px;
+                width: 78px;
+            }
+            .rectangulo{
+                height: 55px;
+                width: 175px;
+                background-color: #C00F1A;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    padding-top: 15px;
+                }
+            }
+         
+        }
+    }
+}
+
+footer{
+    margin-top: 63px;
+        height: 270px;
+        background-color: black;
+   
+        hr{
+            border: 1px solid white; /* Estilo de borde sólido, puedes ajustar el color y el grosor */
+            margin: 50px 0; 
+            width: 471px;
+        }
+        .redes-sociales img{
+            margin-top: 30px;
+        }
+        .logo-header{
+            padding-top: -5px;
+            padding-bottom: 21px;
+        }
+        p{
+            font-size: 15px;
+        }
+        .copy{
+            margin-top: -20px;
+            p{
+                font-size: 10px;
+            } 
+        }  
+    }
+
+    .seleccionar-cuenta{
+        padding-top: 31px;
+        h2{
+            padding-left: 11px;
+        }
+    }
+
+    
+
+    .rect-izq{
+      width: 139px;
+      height: 72px;
+      img{
+        height: 100%;
+      }
+    }
+  
+      .rect-derecho{
+        width: 339px;
+        height: 72px;
+        position: relative;
+        img{
+            height: 100%;
+        }
+      }
+  
+      .rect-derecho p {
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 26px;
+      }
+
+      
+/*Tecnologia*/
+#tecnologia{
+    padding-top: 40px;
+    .texto-comilla{
+        color: $font-color;
+    }
+    h5{
+        font-size: $tamano-fuente;
+    }
+    .img-derecha{
+        margin-left: 40px;
+    }
+    .text-box{
+        margin-top: 37px;
+        padding-bottom: 26px;
+    }
+    .img-derecha{
+        padding-top: 43px;
+        margin-left: 240px;
+    }
+    ul{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 500px) {#tecnologia{
+    .texto-comilla{
+        padding-top: 40px;
+    }
+    .text-box{
+        font-size: 18px;
+    }
+}
+}
+
+/*Cobertura Regional*/
+#cobertura-regional{
+    padding-top: 40px;
+.texto-comilla h5{
+    padding-bottom: 20px;
+ color: $font-color;
+ font-size: 25px;
+}
+
+.cobertura-mapa{
+    margin-top: 70px;
+}
+}
+
+@media screen and (max-width: 768px) { #cobertura-regional{
+    .text-img{
+        flex-direction: column;
+        .cobertura-mapa{
+            padding-top: 50px;
+        }
+    }
+}
+}
+
+/*seguridad*/
+#seguridad{
+    padding-top: 40px;
+.texto-comilla{
+    h5{
+        font-size: 25px;
+    }
+    padding-left: 118px;
+    color: $font-color;
+}
+.text-box{
+    padding-top: 26px;
+}
+}
+
+@media screen and (max-width: 768px) { #seguridad
+    .texto-comilla h5{
+        position: relative;
+        top: 50%;
+        right: 173%;
+         width: 280px;
+        height: 230px;
+
+    }
+}
+@media  screen and (min-width: 769px) and (max-width: 991px) { #seguridad
+    .texto-comilla h5{
+        position: relative;
+         width: 400px;
+         top: 50%;
+         right: 110%;
+         height: 200px;
+
+    }
+}
+
+/*Alianzas*/
+#alianzas{
+    h5{
+        font-size: 25px;
+    }
+    padding-top: 40px;
+    .texto-comilla{
+        margin-left: 201px;
+        color: $font-color;
+    }
+    .proveedores{
+        .col-md-4{
+            margin-top: 20px;
+        }
+    }
+}
+    @media screen and (max-width: 768px) { #alianzas
+        .texto-comilla h5{
+            position: relative;
+            top: 50%;
+            right: 260%;
+             width: 200px;
+            height: 200px;
+
+        }
+    }
+    @media  screen and (min-width: 769px) and (max-width: 991px) { #alianzas
+        .texto-comilla h5{
+             width: 200px;
+             margin-left: -145px;
+
+        }
+    }
+
+    /*Productos y Servicios*/
+    #productos-servicios{
+        padding-top: 40px;
+        h5{
+            color: $font-color;
+            font-size: 25px;
+        }
+ }
+
+
+   /*Quienes somos*/
+   #quienes-somos{
+    padding-top: 40px;
+   
+    .text-box{
+        text-align: left;
+        padding-top: 30px;
+    }
+    .img-derecha{
+        gap: 30px;
+        margin-top: -60px;
+        width: 420px;
+        h5{
+            color: $font-color;
+            font-size: 25px;
+        }
+    }
+    .foto{
+        margin-top: 36px;
+    }
+    .lista{
+        padding-left: 50px;
+    }
+    li{
+        list-style: none;
+    }
+    .flecha{
+        margin-right: -15px;
+    }
+   }
+   @media screen and (max-width: 768px) {
+    #quienes-somos{
+        .text-box p{
+            font-size: 17px;
+        }
+        .img-derecha{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 470px;
+            padding-top: 40px;
+         }
+        }
+    }
+    @media  screen and (min-width: 769px) and (max-width: 991px) {#quienes-somos
+        .text-box{
+            width: 90%;
+        }
+        .img-derecha{
+           height: 450px;
+           text-align: center;
+           padding-top: 70px;
+        }
+      } 
+
+#consultar-cuenta {
+    padding-top: 70px;
+    height: 100vh;
+  
+
+    .formulario-cuenta{
+        margin-top: 28px;
+        width: 500px;
+        height: 250px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        border-radius: 8px;
+  
+      form {
+        display: flex;
+        align-items: center;
+        .form-group {
+  
+          input {
+            margin-top: 16px;
+            width: 280px;
+          }
+  
+          button {
+            margin-top: 36px;
+            width: 280px;
+            height: 45px;
+            background-color: $font-color;
+            border-radius: 25px;
+            border: none;
+          }
+        }
+      }
+    }
+  
+}
